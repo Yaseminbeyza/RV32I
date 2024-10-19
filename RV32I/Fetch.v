@@ -1,4 +1,4 @@
-module Fetch(
+module Fetch_cycle(
     input clk, rst, PCSrcE, StallF,
     input [31:0] PCTargetE,
     input branch_taken,
