@@ -12,8 +12,8 @@ module Branch_detector(
     input wire [31:0] btb_target,     
     input wire btb_found,             
     input wire [2:0] branch_op,      
-    input wire [31:0] rs1,          
-    input wire [31:0] rs2,       
+    input wire [31:0] rs1_i,          
+    input wire [31:0] rs2_i,       
     
     output reg branch_mispredict,     
     output reg [31:0] next_pc        
